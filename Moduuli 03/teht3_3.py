@@ -6,22 +6,22 @@
 sex = input("Oletko biologisesti mies vai nainen? m/n ") #Sukupuoli
 
 
-if sex == "m" or sex == "M":
+if sex == "m" or sex == "M": #onko mies
     hemo = int(input("Anna hemoglobiini arvosi: "))  # hemoglobiini arvo
-    if 134 <= hemo <= 195:
+    if 134 <= hemo <= 195: # oikea hgb taso
         print("Hieno homma, Hemmo!")
-    elif 134 > hemo:
+    elif 134 > hemo: #alhainen hgb taso
         print("Hemoglobiini alhainen! Syö rautaa tai mene vuoristoon!")
-    elif sex == "m" or sex =="M" and 195 < hemo:
+    elif sex == "m" or sex =="M" and 195 < hemo: #korkea hgb taso
         print("Hemoglobiinisi on ylhäällä! Laskeudu merenpinnan tasolle")
-elif sex == "n" or sex =="N":
+elif sex == "n" or sex =="N": #onko nainen
     hemo = int(input("Anna hemoglobiini arvosi: "))  # hemoglobiini arvo
-    if 117 <= hemo <= 175:
+    if 117 <= hemo <= 175:# oikea hgb taso
         print("Hieno homma, Leidi")
-    elif sex == "n" or sex =="N" and hemo > 175:
+    elif hemo > 175: # korkea hgb taso
         print("Hemoglobiinisi on ylhäällä! Laskeudu merenpinnan tasolle")
-    elif sex == "n" or sex == "N" and 117 > hemo:
+    elif 117 > hemo: # matala hgb taso
         print("Hemoglobiini alhainen! Syö rautaa tai mene vuoristoon!")
 
 else:
-    print("En tunnista sukupuoltasi!")
+    print("En tunnista biologista sukupuoltasi!")
