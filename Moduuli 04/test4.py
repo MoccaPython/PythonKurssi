@@ -7,10 +7,10 @@
 # Tänne ei koskaan päästä:
 #print("Valmista tuli.")
 
-komento = input ("Anna komento: ")
-while komento!="lopeta":
-    if komento=="MAYDAY":
-        break
-    print ("Suoritan toiminnon: " + komento)
-    komento = input("Anna komento: ")
-print ("Toiminnot lopetettu.")
+luku = int(input("Anna luku? "))
+
+if luku < 0:
+    print("luvun itseisarvo on", luku*-1)
+else:
+    print("luvun itseisarvo on", luku)
+
