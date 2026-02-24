@@ -12,7 +12,7 @@ while True:
     luku_str = input("Anna luku! ")
     if luku_str == "":
         break
-    luku = int(luku_str)
+  #  luku = int(luku_str)
     luku = int(luku_str)
     if luku < pienin:
         pienin = luku
