@@ -18,4 +18,4 @@ while True:
         pienin = luku
     if luku > suurin:
         suurin = luku
-print("suurin antamasi luku on ", suurin, "pienin antamasi luku on", pienin)
+print(f"Suurin antamasi luku on {suurin}, pienin antamasi luku on {pienin}")
