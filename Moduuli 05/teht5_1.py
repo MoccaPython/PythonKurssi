@@ -9,11 +9,11 @@ silmaluvut = [] #lista johon noppien silmä luvut kasataan
 
 for i in range(nopat):
     silma = random.randint(1,6) #arpoo nopan silmälukeman
-    silmaluvut.append(silma)
+    silmaluvut.append(silma) #tallentaa silmäluvun taulukkoon
 
 summa = sum(silmaluvut) #listan silmalukujen summa
 print(summa)
-print(len(silmaluvut))
+#print(len(silmaluvut))
 """
 vanha = 0
 for luku in range(1,7):
