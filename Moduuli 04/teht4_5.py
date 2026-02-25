@@ -5,7 +5,7 @@ user = input("Anna käyttäjätunnus: ")
 password = input("Anna salasana: ")
 kyselyt = 1
 
-k = "phyton"
+k = "python"
 s = "rules"
 
 if user == k and password == s:

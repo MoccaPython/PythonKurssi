@@ -6,4 +6,4 @@ while luku < 1000:
         print (luku)
     luku = luku + 1
 
-print("DONE.")
+#print("DONE.")

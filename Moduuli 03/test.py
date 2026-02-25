@@ -38,8 +38,13 @@ while etunimi != "":
 for nimi in nimet:
     print (f"Moi, {nimi}!")
 """
-luku = int(input("Anna luku: "))
+summa = 0
+while True:
+    numero = int(input("Anna luku jonka haluat lisätä. -1 keskeyttää:  "))
+    if numero == -1:
+        break
+    elif numero >= 10:
+        continue
+    summa += numero
 
-viimeinen = abs(luku) % 10
-
-print("Viimeinen numero on:", viimeinen)
+print("summma on ", summa)

@@ -1,7 +1,7 @@
 #Kirjoita ohjelma, joka kysyy käyttäjältä lukuja siihen saakka, kunnes tämä syöttää tyhjän merkkijonon
 #lopetusmerkiksi. Lopuksi ohjelma tulostaa saaduista luvuista pienimmän ja suurimman.
 
-luku_str = input("Anna luku!\nTyhjä lopettaa kyselyn \n")
+luku_str = input("Anna luku!\nTyhjä lopettaa kyselyn ")
 
 
 luku = int(luku_str)
@@ -12,7 +12,6 @@ while True:
     luku_str = input("Anna luku! ")
     if luku_str == "":
         break
-  #  luku = int(luku_str)
     luku = int(luku_str)
     if luku < pienin:
         pienin = luku
