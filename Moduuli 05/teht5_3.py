@@ -14,14 +14,14 @@ if luku == 2 or luku == 1 or luku == 3:
 for i in range(1, luku+1):
     if luku % i == 0:
         lista.append(i)
-        if len(lista) >= 2:  #keskeyttää ajon kun löytyy ensimmäinen jakaja kuin 1 ja luku itse
-            break
+        #if len(lista) >= 3:  #keskeyttää ajon kun löytyy ensimmäinen jakaja kuin 1 ja luku itse
+         #   break
 
-if len(lista)>=2:
+if len(lista)>2:
     print(f"Luku {luku} ei ole alkuluku!")
-    #print(f"luvulla on ", len(lista), "jakajaa!")  # jos halutaan saada selville ei alkuvun jakajat ja niiden määrä
-    #print(lista)
+    print(f"luvulla on ", len(lista), "jakajaa!")  # jos halutaan saada selville luvun jakajat ja niiden määrä
+    print(lista)
 
 else:
-    print(f"Luku1 {luku} on alkuluku!")
-    print(lista)
+    print(f"Luku {luku} on alkuluku!")
+    #print(lista)

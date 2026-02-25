@@ -6,7 +6,7 @@
 sex = input("Oletko biologisesti mies vai nainen? m/n ") #Sukupuoli
 
 
-if sex == "m" or sex == "M": #onko mies
+if sex == "m" or "M": #onko mies
     hemo = int(input("Anna hemoglobiini arvosi: "))  # hemoglobiini arvo
     if 134 <= hemo <= 195: # oikea hgb taso
         print("Hieno homma!")
