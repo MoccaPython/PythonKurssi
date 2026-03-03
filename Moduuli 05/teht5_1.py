@@ -13,7 +13,7 @@ for i in range(nopat):
 
 summa = sum(silmaluvut) #listan silmalukujen summa
 print(summa)
-#print(len(silmaluvut))
+#print(silmaluvut)
 """
 vanha = 0
 for luku in range(1,7):
