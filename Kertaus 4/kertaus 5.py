@@ -23,5 +23,8 @@ while True:
         luku2 = int(input("Anna toinen luku: "))
         jako = luku1 / luku2
         print(luku1, " / ", luku2, " = ", jako)
-    elif toimitus == "" or "/" or "*" or "-" or "+":
+    else:
+        break
+
+    #elif toimitus == "":
         break
